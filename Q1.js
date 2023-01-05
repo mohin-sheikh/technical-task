@@ -1,5 +1,8 @@
 // Q1. Print following pattern
-for (let i = 1; i < 6; i++) {
+for (let i = 1; i < 10; i++) {
+    if (i !== 2) {
+        if (i % 2 === 0) continue;
+    }
     let row = "";
     for (let j = 1; j <= i; j++) {
         let temp = j
